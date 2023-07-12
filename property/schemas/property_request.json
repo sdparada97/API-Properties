@@ -1,0 +1,25 @@
+{
+    "type": "object",
+    "properties": {
+        "status": {
+            "type": "array",
+            "items": {
+                "type": "integer",
+                "enum": [3,4,5]
+            }
+        },
+        "city": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "year": {
+            "type": "array",
+            "items": {
+            "type": "string"
+            }
+        }
+    },
+    "required": []
+}

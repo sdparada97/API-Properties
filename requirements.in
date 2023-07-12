@@ -1,0 +1,8 @@
+colorama
+jsonschema
+mysql-connector-python
+pip-tools
+pytest
+python-dotenv
+toolz
+werkzeug
