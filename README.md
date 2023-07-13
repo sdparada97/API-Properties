@@ -28,7 +28,7 @@ By Habi (Technical Test)
 
 ### ***JUSTIFICACION DE LA PROPUESTA :***
 
-En base al anterioR diagrama propuesto se deberia de eliminar la tabla status y crear un dominio de campo para ahorrar JOINS en las consultas.
+En base al anterior diagrama propuesto se deberia de eliminar la tabla status y crear un dominio de campo para ahorrar JOINS en las consultas.
 
 Con esta sentencia SQL se podria añadir:
 ```sql
