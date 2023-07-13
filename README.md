@@ -15,12 +15,20 @@ By Habi (Technical Test)
 
 ## Description
 
-***SERVICIO DE " ME GUSTA " Y PROPUESTA DE MODELO :***
+### ***SERVICIO DE " ME GUSTA " Y PROPUESTA DE MODELO :***
+
+#### MODELO ANTIGUO:
+
+![entidad_relacion](https://github.com/sdparada97/API-Properties/assets/49702755/7f40e262-3ec2-457a-9f77-9a094d508b5a)
+
+#### MODELO PROPUESTA:
+
+![new_entidad_relacion](https://github.com/sdparada97/API-Properties/assets/49702755/92afe9c6-e92a-4392-a490-143e6fd02d8e)
 
 
-***JUSTIFICACION DE LA PROPUESTA :***
+### ***JUSTIFICACION DE LA PROPUESTA :***
 
-En base al anterio diagrama propuesto se deberia de eliminar la tabla status y mejor crear un dominio de campo para ahorrar JOINS en las consultas.
+En base al anterioR diagrama propuesto se deberia de eliminar la tabla status y crear un dominio de campo para ahorrar JOINS en las consultas.
 
 Con esta sentencia SQL se podria añadir:
 ```sql
