@@ -13,7 +13,7 @@ body_params = [
     pytest.param({"status":["3"],"city": ["bogota"],"year": [2021]},
                     400,
                     marks=pytest.mark.xfail(raises=BadRequest)),
-    pytest.param({"status":[1],"city": ["derfgrg"],"year": ["5"]},
+    pytest.param({"status":[3],"city": ["derfgrg"],"year": ["5"]},
                     404,
                     marks=pytest.mark.xfail(raises=NotFound)),
     ]
